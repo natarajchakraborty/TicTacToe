@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tictactoe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+.row {
+  display: flex;
+  flex-direction: col;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.restart {
+  background-color: lightblue;
+  color: orangered;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.state {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.state .cell {
+  background-color: lightsalmon;
+  color: black;
+}
+
+.playerTurn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-weight: bold;
+}
+
+.winnner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-weight: bold;
+  color: darkmagenta;
+  height: 30px;
+}
