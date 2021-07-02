@@ -9,6 +9,6 @@ A user interface for tictactoe that also enables the user to go back and forward
 
 -> Keeps a history of the game; allow players to go backward and forward in time
 
-**Uses React**
+**Uses [React](https://github.com/facebook/react)**
 
 ## Live Page [TicTacToe](https://natarajchakraborty.github.io/csb-oepu1/)
